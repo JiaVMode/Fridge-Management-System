@@ -91,21 +91,6 @@ Fridge-Management-System/
 └── README.md              # 📘 项目说明文档
 ```
 
----
-
-## 📝 开发日志 (Changelog)
-
-- **v5.0 (Final Classic)**: 回归经典青色主题，集成所有逻辑优化，发布终极技术报告。
-- **v4.0 (Pink Edition)**: 尝试粉色主题与 ASCII 艺术界面。
-- **v3.0 (Refined)**: 修复 UI 对齐问题，实现自动清屏。
-- **v2.0 (Logic)**: 引入智能合并与冲突检测算法。
-- **v1.0 (Init)**: 基础增删改查功能完成。
-
----
-
-## 🤝 贡献 (Contributing)
-
-欢迎提交 Issue 或 Pull Request！我们非常重视每一条反馈。
 
 ## 📄 许可证 (License)
 
