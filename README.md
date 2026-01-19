@@ -37,16 +37,6 @@
 
 本项目采用模块化分层架构设计：
 
-```mermaid
-graph TD
-    User[用户输入] --> UI[UI 交互层 (ui.c)]
-    UI --> Controller[业务调度层 (main.c)]
-    Controller --> Logic[核心逻辑层 (fridge.c)]
-    Logic --> Data[数据结构层 (food.c)]
-    Logic --> Storage[持久化层 (file_io.c)]
-    Storage <--> CSV[foods.csv 文件]
-```
-
 - **src/main.c**: 程序入口与主循环调度。
 - **src/ui.c**: 负责 ASCII 界面渲染与鲁棒输入处理。
 - **src/fridge.c**: 核心业务逻辑（增删改查、排序、统计）。
